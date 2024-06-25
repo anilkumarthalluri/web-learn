@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+.box{
+    height:34px;
+    width:34px;
+    border:2px solid black;
+    padding:34px;
+    margin:34px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="color:red;" data-createdby="tyson" data-conceptby="anil">Hey I am box1</div>
+        <div class="boxx">Hey I am box2</div>
+        <div class="boxx">Hey I am box3</div>
+        <script src="script.js"></script>
+        <script>
+            let cont = document.querySelector(".container")
+            cont.insertAdjacentHTML("beforeend","<b>hello, I am developer </b>")
+        </script>
+    </div>
+</body>
+</html>
